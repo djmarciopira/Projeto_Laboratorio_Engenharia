@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <h1>Laboratorio</h1>
-    <ol>Lista de semana</ol>
-        <li><a href="semana_01.html">Semana 01</li>
-        <li>Semana 02</li>
-
+    <h1>Testar Atividades JavaScript</h1>
+    <div style="display:flex; flex-direction:column; gap:16px; max-width:300px; margin:32px auto;">
+        <a href="ex1/page.html" class="home-btn">Atividade 1: Scripts JS</a>
+        <a href="ex2/page.html" class="home-btn">Atividade 2: Data, Relógio, Palíndromo</a>
+        <a href="ex3/page.html" class="home-btn">Atividade 3: Playlist + TODO List</a>
+        <a href="ex4/page.html" class="home-btn">Atividade 4: Formulário de Cadastro</a>
+        <a href="ex5/page.html" class="home-btn">Atividade 5: Contador de Pessoas</a>
+        <a href="ex6/page.html" class="home-btn">Atividade 6: Calculadora</a>
+    </div>
+    <div id="result"></div>
+    <style>
+        .home-btn {
+            display: block;
+            background: #3a7bd5;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 0;
+            border-radius: 8px;
+            font-size: 1.1em;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 2px 8px #0001;
+            transition: background 0.2s;
+        }
+        .home-btn:hover {
+            background: #1e3c5a;
+        }
+    </style>
 </body>
 </html>
