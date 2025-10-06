@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist Interativa + TODO List</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Playlist Interativa + TODO List</h1>
+    <div id="playlistSection">
+        <h2>Playlist</h2>
+        <form id="playlistForm" onsubmit="return false;">
+            <input type="text" id="musicInput" placeholder="Nome da música">
+            <button onclick="addMusic()">Adicionar</button>
+            <button onclick="sortPlaylist()">Ordenar</button>
+            <button onclick="filterPlaylist()">Filtrar (Apenas músicas com 'a')</button>
+            <button onclick="popMusic()">Remover Última</button>
+        </form>
+        <ul id="playlist"></ul>
+    </div>
+</body>
+</html>
